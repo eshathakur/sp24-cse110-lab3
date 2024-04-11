@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <title>Pomodoro Timer First Brainstorm (meeting minutes)</title>
+    <meta charset="UTF-8">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="manifest" href="/site.webmanifest">
+
+  </head>
+ 
+  <body>
+    
+    <main>
+        <header>
+            <h1>Pomodoro Timer First Brainstorm</h1>
+            <hr>
+            <h2>documentation</h2>
+            <h3>4/10/2024</h3>
+            <nav>
+                <ol>
+                  <li><a href="#attendance">Attendance</a></li>
+                  <li><a href="#agenda">Agenda</a></li>
+                  <li><a href="#unfinishedbusiness">Unfinished Business</a></li>
+                  <li><a href="#newbusiness">New Business</a></li>
+                  <li><a href="#miscellaneous">Miscellaneous</a></li>
+                </ol>
+            </nav>
+        </header>
+
+        <section id="attendance">
+            <div><b>Attendance</b></div>
+            <p><em><span style="color:pink">Everyone made it today:)</span> </em> </p>
+            <ul>
+                <li>Alex Johnson (Team Lead)</li>
+                <li>Samantha Green (Front-End Developer)</li>
+                <li>Raj Patel (Back-End Developer)</li>
+                <li>Liu Yang (UI/UX Designer)</li>
+                <li>Jamie Smith (QA Engineer)</li>
+            </ul>
+
+        </section>
+
+        <section id ="agenda"> 
+            <div><b>Agenda</b></div>
+
+        </section>
+
+        <section id="unfinishedbusiness">
+            <div><b>Unfinished Business</b></div>
+            <textarea id="w3review" name="w3review" rows="4" cols="50">
+                Final decision on the project management tool was pending. 
+                After reviewing options, the team settles on Jira for task 
+                management and sprints planning.
+
+            </textarea>
+        </section>
+
+        <section>
+            <div><b>New Business</b></div>
+        </section>
+
+        <section>
+
+            <details>
+                <summary>Miscellaneous</summary>
+                <p><i>There was no extra comments made today <br> Here are the 
+                    pictures of the whiteboard, and the video/audio recording of the meeting
+                </i></p>
+                
+                <img src="screenshots/team-meeting.jpg" alt="our team meeting" width="500" height="600">
+                <video width="640" height="480" src="screenshots/team-meeting-video.mp4" controls></video>
+                <audio controls>
+                    <source src="screenshots/team-meeting-video.mp4">
+                </audio>
+
+
+              </details>
+            
+        </section>
+
+        <br>
+
+
+        <section>
+            <form action="/action_page.php">
+                <fieldset>
+                  <legend>Suggestions:</legend>
+                  <label for="comments">Any questions, comments, concerns?:</label>
+                  <input type="text" id="comments" name="comments"><br><br>
+                  <input type="submit" value="Submit">
+                </fieldset>
+              </form>
+        </section>
+
+        <section>
+            <h3>To get to know you better: </h3>
+            <label for="name">Choose your name from the list:</label>
+            <input list="names" name="name" id="name">
+
+            
+            <datalist id="names">
+                    <option value="Alex J.">
+                    <option value="Samantha G.">
+                    <option value="Raj P.">
+                    <option value="Liu Y.">
+                    <option value="Jamie S.">
+            </datalist>
+            
+            <label for="cars">Did you attend this meeting?:</label>
+
+            <select name="attendance" id="attendance">
+                <option value="yes">yes</option>
+                <option value="no">no</option>
+            </select>
+
+            <br>
+            <p>What languages do you speak in the office?</p>
+            <input type="checkbox" id="english" name="english" value="english">
+            <label for="english"> English</label><br>
+            <input type="checkbox" id="spanish" name="spanish" value="spanish">
+            <label for="spanish"> Spanish</label><br>
+            <input type="checkbox" id="French" name="French" value="French">
+            <label for="French"> French</label><br>
+
+
+            <br>
+            <p>How do you get to work?</p>
+            <input type="radio" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <input type="radio" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a car</label><br>
+            <input type="radio" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> I walk</label><br>
+
+            <br>
+            <p>When is your birthday?</p>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+            
+        </section>
+
+
+    </main>
+
+    <br>
+    <footer>
+        <button type="button">We're Done!</button>
+        <p><strong>Meeting Minutes by Esha Thakur</strong></p>
+    </footer>
+  </body>
+</html>
