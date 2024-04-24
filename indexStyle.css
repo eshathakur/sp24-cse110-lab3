@@ -1,1 +1,23 @@
 /* here is my first comment */
+body {
+    background-color: #FFC0CB; /* hex code */
+  }
+  
+  h1 {
+    color: rgb(229, 8, 8); /* rgb */
+    text-align: center;
+  }
+
+  h2 {
+    color: color(rgb 0 255 255 / 0.5); /* predefined color space, values for color space*/
+    }
+
+  h3 {
+    color: color-mix(blend, rgb(128 0 128), rgb(255, 0, 47)); /*method to mix colors, values & percentages of color*/
+    }
+  
+button {
+    background-color: blue; /* color name */
+    color: hsl(0,100%,100%); /* hue */
+    }
+
