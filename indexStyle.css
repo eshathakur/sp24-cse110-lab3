@@ -3,7 +3,7 @@
     --main-color: #FFC0CB; /* Define the CSS variable with a value, using hex code */
 }
 * {
-    margin: 1;
+    margin: 0;
 }
 @font-face {
     font-family: "myFont";
