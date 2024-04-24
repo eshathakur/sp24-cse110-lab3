@@ -32,11 +32,6 @@ body {
         font-size: 1.5em;
     }
       
-.px {
-        width: 200px;
-        background-color: aqua;
-    }
-      
 .vw {
         width: 10vw;
         background-color: purple;
@@ -50,3 +45,52 @@ body {
         width: 10em;
         background-color: rgb(226, 11, 172);   
     }
+
+/* Border */
+/* Longhand */
+.long-border {
+    border-top: 3px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 2px solid #000;
+  }
+  
+  /* Shorthand */
+  .short-border {
+    border: 1px solid #000;
+    border-width: 1px 2px; 
+  }
+
+/* Margin */
+/* Longhand */
+.long-margin {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+  }
+  
+  /* Shorthand */
+  .short-margin {
+    margin: 10px 20px 15px 20px;
+  }
+  
+  /* Auto Margins */
+  .auto-margin {
+    margin: auto;
+  }
+
+  /* Padding */
+/* Longhand */
+.long-padding {
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+  
+  /* Shorthand */
+  .short-padding {
+    padding: 15px 20px 10px;
+  }
+
