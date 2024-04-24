@@ -104,14 +104,14 @@
 
 
         <section>
-            <form action="/action_page.php">
-                <fieldset>
-                  <legend>Suggestions:</legend>
-                  <label for="comments">Any questions, comments, concerns?:</label>
-                  <input type="text" id="comments" name="comments"><br><br>
-                  <input type="submit" value="Submit">
+            <form action="/action_page.php" style="max-width: 500px; min-width: 200px;">
+                <fieldset style="width: 300px;">
+                    <legend>Suggestions:</legend>
+                    <label for="comments">Any questions, comments, concerns?:</label>
+                    <input type="text" id="comments" name="comments" style="width: 250px; height: 30px;"><br><br>
+                    <input type="submit" value="Submit" style="height: 40px; width: 100px;">
                 </fieldset>
-              </form>
+            </form>
         </section>
 
         <section>
@@ -134,6 +134,7 @@
             
             <label for="attend">Did you attend this meeting?:</label>
 
+    
             <select name="attend" id="attend">
                 <option value="yes">yes</option>
                 <option value="no">no</option>
