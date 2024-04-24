@@ -27,12 +27,9 @@ body {
     margin-bottom: 2cm;
   }
 
-  /*h2 {
+  h2 {
     color: color(rgb 0 255 255 / 0.5); /* predefined color space, values for color space*/
-    
-h2 {
-    color: rgba(0, 255, 255, 0.5); /* Use rgba function with alpha channel */
-}
+    }
 
   h3 {
     color: color-mix(blend, rgb(128 0 128), rgb(255, 0, 47)); /*method to mix colors, values & percentages of color*/
