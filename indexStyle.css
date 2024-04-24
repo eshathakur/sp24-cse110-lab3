@@ -1,6 +1,9 @@
 /* here is my first comment */
+:root{
+    --main-color: #FFC0CB; /* Define the CSS variable with a value, using hex code */
+}
 body {
-    background-color: #FFC0CB; /* hex code */
+    background-color: var(--main-color, pink);  /* var is hex code, using CSS var with fallback val of pink */
   }
   
   h1 {
