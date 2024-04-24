@@ -69,6 +69,7 @@ body {
     margin-right: 20px;
     margin-bottom: 15px;
     margin-left: 20px;
+   
   }
   
   /* Shorthand */
@@ -95,3 +96,9 @@ body {
     padding: 15px 20px 10px;
   }
 
+  .unfinishedbusiness {
+    height: 10px;
+    width: 3px;
+    max-width: 10px;
+    min-width: 100px;
+}
