@@ -194,3 +194,28 @@ button:active {
     text-decoration: underline;
     color: rgb(132, 255, 0); /* Change text color when hovering */
   }
+
+  /* Descendant Combinator (element element) */
+#parent .first {
+    color: blue;
+  }
+  
+  /* Child Combinator (element > element) */
+  #parent > .second {
+    color: green;
+  }
+  
+  /* General sibling combinator (element ~ element) */
+  .second ~ .third {
+    font-weight: bold;
+  }
+  
+  /* Adjacent sibling combinator (element + element) */
+  .second + .third {
+    background-color: yellow;
+  }
+  
+  /* Combining Two Selectors (element.class) */
+  .fourth.first {
+    font-style: italic;
+  }
