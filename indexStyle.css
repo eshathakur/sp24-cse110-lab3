@@ -110,12 +110,12 @@ button:active {
 }
 
 /* Flexbox layout */
-.container {
+.container1 {
     display: flex; /* Apply flexbox to the container */
     justify-content: space-around; /* Align items with space around them */
     align-items: center; 
     height: 200px; 
-    background-color: #f0f0f0;
+    background-color: #562cd6;
   }
   
   /* Style for the flex items */
@@ -123,8 +123,24 @@ button:active {
     flex: 1; /* Grow and shrink equally to fill available space */
     height: 100px;
     width: 100px;
-    background-color: #007bff;
-    color: white;
+    background-color: #72dde1;
+    color: rgb(69, 96, 230);
     text-align: center;
     line-height: 100px;
+  }
+
+  /* Grid layout */
+.container {
+    display: grid; /* Apply grid layout to the container */
+    grid-template-columns: repeat(3, 100px); /* Create a grid with three columns of 100px each */
+    gap: 10px; /* Set the gap between grid items */
+  }
+  
+  /* Style for the grid items */
+  .item {
+    height: 10px;
+    background-color: #9427ce;
+    color: white;
+    text-align: center;
+    line-height: 10px;
   }
