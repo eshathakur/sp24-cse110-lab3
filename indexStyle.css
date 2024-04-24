@@ -219,3 +219,13 @@ button:active {
   .fourth.first {
     font-style: italic;
   }
+
+  section:has(ul) {
+    background-color: #c91313; /* Apply background color to sections containing unordered lists */
+  }
+
+  /* Apply styles to the <p> element inside the .child div */
+.parent .child p {
+    color: rgb(255, 153, 0);
+    font-size: 16px;
+}
