@@ -31,21 +31,23 @@ body {
 
 .wrapper {
         font-size: 1.5em;
+        position: relative;
     }
       
 .vw {
         width: 10vw;
         background-color: purple;
+        position: relative;
     }
       
 .em {
         width: 10em;
         background-color: yellow;
     }
-    .rem{
+.rem{
         width: 10em;
         background-color: rgb(226, 11, 172);   
-    }
+}
 
 /* Border */
 /* Longhand */
