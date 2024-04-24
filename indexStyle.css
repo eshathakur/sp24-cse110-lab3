@@ -14,7 +14,7 @@ body {
     background-color: var(--main-color, pink);  /* var is hex code, using CSS var with fallback val of pink */
   }
   
-  h1 {
+  .Pomodero {
     font-family: "Jacquard 24", system-ui;
     color: rgb(229, 8, 8); /* rgb */
     text-align: center;
@@ -32,6 +32,10 @@ body {
   h3 {
     color: color-mix(blend, rgb(128 0 128), rgb(255, 0, 47)); /*method to mix colors, values & percentages of color*/
     }
+
+ h2, h3 {
+    text-align: center;
+ }
 .containerB {
         max-width: 800px; 
         margin: 0 auto; /* Center the container */
@@ -174,4 +178,19 @@ button:active {
     color: white;
     text-align: center;
     line-height: 10px;
+  }
+
+  #recap {
+    color:#9427ce;
+  }
+
+  /* Attribute Selector (e.g. [attribute=foo]) */
+[data-custom="foo"] {
+    background-color: lightgray;
+  }
+
+/* Apply the underline effect when hovering over the link */
+.link:hover {
+    text-decoration: underline;
+    color: rgb(132, 255, 0); /* Change text color when hovering */
   }
