@@ -108,3 +108,23 @@ button:active {
     max-width: 10px;
     min-width: 100px;
 }
+
+/* Flexbox layout */
+.container {
+    display: flex; /* Apply flexbox to the container */
+    justify-content: space-around; /* Align items with space around them */
+    align-items: center; 
+    height: 200px; 
+    background-color: #f0f0f0;
+  }
+  
+  /* Style for the flex items */
+  .box {
+    flex: 1; /* Grow and shrink equally to fill available space */
+    height: 100px;
+    width: 100px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+  }
