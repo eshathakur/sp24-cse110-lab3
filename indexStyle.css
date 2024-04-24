@@ -2,9 +2,11 @@
 :root{
     --main-color: #FFC0CB; /* Define the CSS variable with a value, using hex code */
 }
+
 * {
-    margin: 1px;
+    padding: 0;
 }
+
 @font-face {
     font-family: "myFont";
     src: url('https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap');
