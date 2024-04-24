@@ -23,8 +23,30 @@ body {
   h3 {
     color: color-mix(blend, rgb(128 0 128), rgb(255, 0, 47)); /*method to mix colors, values & percentages of color*/
     }
+.containerB {
+        max-width: 800px; 
+        margin: 0 auto; /* Center the container */
+        padding: 20px;
+        text-align: center;
+      }
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+}    
+
+/* Media query for responsiveness */
+@media screen and (max-width: 600px) {
+    /* Adjust styles for small screens */
+    .container {
+      padding: 10px; /* Reduce padding */
+    }
+    
+    button {
+      font-size: 14px; /* Reduce button font size */
+    }
+  }
   
-  button:hover {
+button:hover {
     background-color: blue; /* color name */
     color: hsl(0,100%,100%); /* hue */
     }
