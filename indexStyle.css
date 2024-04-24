@@ -24,10 +24,14 @@ body {
     color: color-mix(blend, rgb(128 0 128), rgb(255, 0, 47)); /*method to mix colors, values & percentages of color*/
     }
   
-  button {
+  button:hover {
     background-color: blue; /* color name */
     color: hsl(0,100%,100%); /* hue */
     }
+button:active {
+        background-color: red; /* color name */
+        color: hsl(0,100%,100%); /* hue */
+        }
 
 .wrapper {
         font-size: 1.5em;
