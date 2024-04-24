@@ -4,7 +4,7 @@
 }
 
 * {
-    margin: 0 auto;
+    margin: 1px;
 }
 
 @font-face {
@@ -40,7 +40,7 @@ body {
  }
 .containerB {
         max-width: 800px; 
-        margin: 0 auto; 
+        margin: 1px; 
         padding: 20px;
         text-align: center;
       }
